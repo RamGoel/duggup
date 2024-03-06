@@ -1,5 +1,7 @@
+<script>
+	import Header from "../../components/header/header.svelte";
+
+</script>
 <section>
-    <div>
-        
-    </div>
+        <Header />
 </section>
