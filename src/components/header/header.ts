@@ -5,8 +5,8 @@ import PostSvg from '../../lib/assets/icons/post.svg';
 
 export interface LinkConfigType {
 	name: string;
-	icon: string;
-	path: string;
+	icon?: string;
+	path?: string;
 	type?: 'button';
 }
 export const headerLinksConfig: LinkConfigType[] = [
