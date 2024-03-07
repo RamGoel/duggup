@@ -6,7 +6,7 @@
 	let currentCompany = userData.company[0];
 </script>
 
-<div class="w-full mt-10 flex flex-col md:flex-row">
+<div class="w-full my-[40px] flex flex-col md:flex-row">
 	<div class="w-1/5">
 		<img src={userData.image} width="120" height="120" class="mx-auto" alt="user-big-profile" />
 		<h3 class="font-bold w-1/2 mx-auto leading-tight text-center text-[#4B5C6D] text-[24px]">

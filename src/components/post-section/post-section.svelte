@@ -4,8 +4,10 @@
 	export let data: any;
 </script>
 
-<section class="my-3 flex items-center justify-start">
-	<div class="w-1/5"></div>
+<section class="mt-1 flex items-center justify-start">
+	<div class="w-1/5 text-right px-6">
+    <p class="text-[#7A9299] -mt-2 text-[12px]">{data.date}</p>
+    </div>
 	<div class="relative">
 		<div class="w-1/4">
 			<div class="h-[300px] border-l-[3px] border-[#778FB1] border-dotted"></div>
