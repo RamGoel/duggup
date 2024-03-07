@@ -20,7 +20,7 @@
 		<p class="text-[14px] leading-loose">
 			{userData.description}
 		</p>
-			<CompanyCard className="visible md:hidden" company={currentCompany}/>
+		<CompanyCard isWebsiteShown={true} className="visible md:hidden" company={currentCompany} />
 		<div class="flex w-full items-center justify-between mt-4">
 			<Button linkObject={{ name: userData.isFollowing ? 'Followed' : 'Follow', icon: '' }} />
 			<div class="flex items-center justify-end md:hidden">
@@ -32,5 +32,5 @@
 			</div>
 		</div>
 	</div>
-		<CompanyCard className="hidden md:block" company={currentCompany}/>
+	<CompanyCard isWebsiteShown={true} className="hidden md:block" company={currentCompany} />
 </div>

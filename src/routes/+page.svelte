@@ -12,19 +12,20 @@
 </svelte:head>
 
 <section >
-	<div class="w-10/12 mx-auto">
+	<div class="w-11/12 md:w-10/12 mx-auto">
 		<Header />
 	</div>
 	<div class="w-10/12 md:w-9/12 mx-auto">
 		<UserCard />
 	</div>
-	<!-- <div class="">
+	<div class="">
 		{#each userData.timeline as obj}
 			{#if obj.type === 'post'}
 				<PostSection data={obj} />
 			{:else}
+				<!-- <div></div> -->
 				<PositionSection positionData={obj} />
 			{/if}
 		{/each}
-	</div> -->
+	</div>
 </section>

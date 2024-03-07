@@ -9,7 +9,7 @@ export const userData = {
 		'Co-Founder and CEO at Duggup - Social network for people in tech. Ex-Amazon Head of Engineering. I write hot-takes on building a business, shipping delightful products and accelerating product and career growth.',
 	company: [
 		{
-			name: 'Duggup',
+			company_name: 'Duggup',
 			logo: Company1Logo,
 			role: 'Co-Founder and CEO'
 		}
@@ -35,7 +35,7 @@ export const userData = {
 			date: 'Nov 2023',
 			type: 'position',
 			position: {
-				company: 'Duggup',
+				company_name: 'Duggup',
 				logo: Company1Logo,
 				role: 'Co-Founder and CEO',
 				type: 'Full-time',
@@ -62,7 +62,7 @@ export const userData = {
 			date: 'Sep 2022',
 			type: 'position',
 			position: {
-				company: 'BetterUp',
+				company_name: 'BetterUp',
 				logo: Company2Logo,
 				role: 'VP Engineering',
 				type: 'Full-time',
