@@ -6,7 +6,7 @@
 
 <section class="mt-1 flex items-center justify-start">
 	<div class="w-[50px] md:w-1/5 text-right md:px-6">
-		<p class="text-[#7A9299] hidden md:visible -mt-2 text-[12px]">{data.date}</p>
+		<p class="text-[#7A9299] hidden md:block -mt-2 text-[12px]">{data.date}</p>
 	</div>
 	<div class="relative">
 		<div class="w-1/4">

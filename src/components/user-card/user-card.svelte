@@ -9,7 +9,7 @@
 
 <div class="w-full my-[40px] flex flex-col md:flex-row">
 	<div class="w-full md:w-1/5 text-left">
-		<img src={userData.image} width="120" height="120" class="md:mx-auto" alt="user-big-profile" />
+		<img src={userData.image} width="120" height="120" class="md:mx-auto rounded-full border-4 border-gray-200" alt="user-big-profile" />
 		<h3
 			class="font-bold my-2 w-full md:w-1/2 md:mx-auto leading-tight md:text-center text-[#4B5C6D] text-[24px]"
 		>
@@ -20,7 +20,7 @@
 		<p class="text-[14px] leading-loose">
 			{userData.description}
 		</p>
-		<CompanyCard isWebsiteShown={true} className="visible md:hidden" company={currentCompany} />
+		<CompanyCard website={userData.website} className="visible md:hidden" company={currentCompany} />
 		<div class="flex w-full items-center justify-between mt-4">
 			<Button linkObject={{ name: userData.isFollowing ? 'Followed' : 'Follow', icon: '' }} />
 			<div class="flex items-center justify-end md:hidden">
@@ -32,5 +32,5 @@
 			</div>
 		</div>
 	</div>
-	<CompanyCard isWebsiteShown={true} className="hidden md:block" company={currentCompany} />
+	<CompanyCard website={userData.website} className="hidden md:block" company={currentCompany} />
 </div>

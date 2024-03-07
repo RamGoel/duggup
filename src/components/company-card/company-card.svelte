@@ -3,7 +3,7 @@
 	import DotMenuSvg from '../../lib/assets/icons/dot-menu.svg';
 	export let company: { logo: string; company_name: string; role: string };
 	export let className: string;
-	export let isWebsiteShown: boolean;
+	export let website: string;
 </script>
 
 <div
@@ -23,14 +23,12 @@
 		<p class="text-[#7A9299] text-[12px]">{company.role}</p>
 	</div>
 
-	{#if isWebsiteShown}
-		<div class="mt-5 hidden md:flex items-center justify-end">
-			<div class="flex items-center justify-start">
-				<p class="text-[14px] mr-2 text-[#4D4D4D]">My website</p>
-				<ExternalLinkIcon size={16} color={'#4D4D4D'} />
-			</div>
+	<div class="mt-5 hidden md:flex items-center justify-end">
+		<a href={website} rel="noreferrer" target="_blank" class=" text-[#4D4D4D] hover:text-black flex items-center justify-start">
+			<p class="text-[14px] mr-2 ">My website</p>
+			<ExternalLinkIcon size={16}  />
+		</a>
 
-			<img src={DotMenuSvg} alt="dot menu" class="mx-3" width="20" height="20" />
-		</div>
-	{/if}
+		<img src={DotMenuSvg} alt="dot menu" class="mx-3" width="20" height="20" />
+	</div>
 </div>

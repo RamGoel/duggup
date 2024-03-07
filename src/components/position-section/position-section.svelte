@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { ChevronUp } from 'lucide-svelte';
-	import CompanyCard from '../company-card/company-card.svelte';
 	import PositionCard from '../position-card/position-card.svelte';
 	export let positionData: any;
 	let { position } = positionData;
