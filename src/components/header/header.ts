@@ -7,6 +7,7 @@ export interface LinkConfigType {
 	name: string;
 	icon: string;
 	path: string;
+	type?: 'button';
 }
 export const headerLinksConfig: LinkConfigType[] = [
 	{
@@ -27,6 +28,7 @@ export const headerLinksConfig: LinkConfigType[] = [
 	{
 		name: 'Post',
 		icon: PostSvg,
-		path: '/?action=post'
+		path: '/?action=post',
+		type: 'button'
 	}
 ];
