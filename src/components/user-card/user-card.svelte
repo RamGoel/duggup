@@ -32,7 +32,7 @@
 		<h3 class="font-bold text-black text-[16px]">
 			{currentCompany.name}
 		</h3>
-		<p class="text-[#7A9299] font-semibold text-[12px]">{currentCompany.role}</p>
+		<p class="text-[#7A9299] text-[12px]">{currentCompany.role}</p>
 
 		<div class="mt-5 flex items-center justify-end">
 			<div class="flex items-center justify-start">
